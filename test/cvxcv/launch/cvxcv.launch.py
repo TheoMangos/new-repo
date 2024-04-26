@@ -4,7 +4,7 @@ from launch_ros.actions import Node
 def generate_launch_description():
     return LaunchDescription([
         Node(
-            package='sdfqwsd000',
+            package='cvxcv',
             executable='Node1.py',
             name='node1'
         ),
